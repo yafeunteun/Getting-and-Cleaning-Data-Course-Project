@@ -46,7 +46,6 @@ If you have questions about the data, please email yaf515@g.harvard.edu
 |tBodyAccJerkMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
 |tBodyGyroMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Time domain. Calculated using the Euclidean norm.|
 |tBodyGyroJerkMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
-
 |fBodyAcc-mean()-X|Mean value of the body acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
 |fBodyAcc-mean()-Y|Mean value of the body acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
 |fBodyAcc-mean()-Z|Mean value of the body acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
