@@ -21,18 +21,18 @@ library(dplyr)
 library(data.table)
 
 # Load files in memory 
-X_test <- fread("./test/X_test.txt")
-y_test <- fread("./test/y_test.txt")
+X_test <- fread("data_in/test/X_test.txt")
+y_test <- fread("data_in/test/y_test.txt")
 
-X_train <- fread("./train/X_train.txt")
-y_train <- fread("./train/y_train.txt")
+X_train <- fread("data_in/train/X_train.txt")
+y_train <- fread("data_in/train/y_train.txt")
   
-activity_labels <- fread("./activity_labels.txt")
+activity_labels <- fread("data_in/activity_labels.txt")
 
-subject_train <- fread("./train/subject_train.txt")
-subject_test <- fread("./test/subject_test.txt")
+subject_train <- fread("data_in/train/subject_train.txt")
+subject_test <- fread("data_in/test/subject_test.txt")
 
-features <- fread("features.txt")
+features <- fread("data_in/features.txt")
 
 # Merges the training and the test sets to create one data set.
 X_total <- bind_rows(X_train, X_test)
@@ -83,6 +83,3 @@ total_by_activity_subject <- group_by(total, activity,subject) %>% summarise_eac
 # Write resulting data sets to files 
 write.table(total, file="./data_out/mean_and_std_measurements.txt")
 write.table(total_by_activity_subject, file="./data_out/avg_mean_and_std_measurements.txt")
-
-
-
