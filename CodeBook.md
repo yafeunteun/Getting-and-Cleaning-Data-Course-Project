@@ -59,3 +59,37 @@ If you have questions about the data, please email yaf515@g.harvard.edu
 |fBodyAccJerkMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
 |fBodyGyroMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
 |fBodyGyroJerkMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|tBodyAcc-std()-X|Standard deviation value of the body acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAcc-std()-Y|Standard deviation value of the body acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAcc-std()-Z|Standard deviation value of the body acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-std()-X|Standard deviation value of the gravity acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-std()-Y|Standard deviation value of the gravity acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-std()-Z|Standard deviation value of the gravity acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-std()-X|Standard deviation value of the body acceleration Jerk signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-std()-Y|Standard deviation value of the body acceleration Jerk signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-std()-Z|Standard deviation value of the body acceleration Jerk signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyGyro-std()-X|Standard deviation value of the body angular velocity signal in the X-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyro-std()-Y|Standard deviation value of the body angular velocity signal in the Y-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyro-std()-Z|Standard deviation value of the body angular velocity signal in the Z-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-std()-X|Standard deviation value of the body angular velocity Jerk signal in the X-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-std()-Y|Standard deviation value of the body angular velocity Jerk signal in the Y-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-std()-Z|Standard deviation value of the body angular velocity Jerk signal in the Z-axis direction in rad/s|Numeric||Time domain|
+|tBodyAccMag-std()|Standard deviation value of the magnitude of the three-dimensional body acceleration signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tGravityAccMag-std()|Standard deviation value of the magnitude of the three-dimensional gravity acceleration signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyAccJerkMag-std()|Standard deviation value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyGyroMag-std()|Standard deviation value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyGyroJerkMag-std()|Standard deviation value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|fBodyAcc-std()-X|Standard deviation value of the body acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAcc-std()-Y|Standard deviation value of the body acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAcc-std()-Z|Standard deviation value of the body acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-std()-X|Standard deviation value of the body acceleration Jerk signal in the X-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-std()-Y|Standard deviation value of the body acceleration Jerk signal in the Y-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-std()-Z|Standard deviation value of the body acceleration Jerk signal in the Z-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyGyro-std()-X|Standard deviation value of the body angular velocity signal in the X-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyGyro-std()-Y|Standard deviation value of the body angular velocity signal in the Y-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyGyro-std()-Z|Standard deviation value of the body angular velocity signal in the Z-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyAccMag-std()|Standard deviation value of the magnitude of the three-dimensional body acceleration signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyAccJerkMag-std()|Standard deviation value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyGyroMag-std()|Standard deviation value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyGyroJerkMag-std()|Standard deviation value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+
