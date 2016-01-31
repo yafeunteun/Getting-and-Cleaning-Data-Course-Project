@@ -14,6 +14,7 @@ www.smartlab.ws
 
 
 The dataset includes the following files:
+==========================================
 
 - 'mean_and_std_measurements.txt' : Contains the mean and standard deviation of each accelerometer and gyroscope signals for each record.
 
