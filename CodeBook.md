@@ -47,4 +47,16 @@ If you have questions about the data, please email yaf515@g.harvard.edu
 |tBodyGyroMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Time domain. Calculated using the Euclidean norm.|
 |tBodyGyroJerkMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
 
-
+|fBodyAcc-mean()-X|Mean value of the body acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAcc-mean()-Y|Mean value of the body acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAcc-mean()-Z|Mean value of the body acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-mean()-X|Mean value of the body acceleration Jerk signal in the X-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-mean()-Y|Mean value of the body acceleration Jerk signal in the Y-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyAccJerk-mean()-Z|Mean value of the body acceleration Jerk signal in the Z-axis direction in standard gravity units 'g'|Numeric||Frequency domain|
+|fBodyGyro-mean()-X|Mean value of the body angular velocity signal in the X-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyGyro-mean()-Y|Mean value of the body angular velocity signal in the Y-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyGyro-mean()-Z|Mean value of the body angular velocity signal in the Z-axis direction in rad/s|Numeric||Frequency domain|
+|fBodyAccMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyAccJerkMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyGyroMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
+|fBodyGyroJerkMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Frequency domain. Calculated using the Euclidean norm.|
