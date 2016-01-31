@@ -1,9 +1,19 @@
-#####################################
-# 
-#
-#
-#
-#####################################
+#################################################################################
+#                                                                               #
+# Getting and Cleaning Data Course Project                                      # 
+#===============================================================================#
+# The purpose of this scrip is to prepare tidy data from the given data set     #
+# that can be ue for later analysis. This script does the following :           #
+#                                                                               #
+# 1. Merges the training and the test sets to create one data set.              #
+# 2. Extracts only the measurements on the mean and standard deviation for each #
+# measurements.                                                                 #  
+# 3. Uses descriptive activity names to name the activities in the data set     #
+# 4. Appropriately labels the data set with descriptive variables names.        #
+# 5. From the data set in step 4, creates a second, independent tidy data set   #
+# with the average of each variable for each activity and each subject.         #
+#                                                                               #
+#################################################################################
 
 
 ## Load required packages
@@ -57,6 +67,8 @@ total <- select(total, order(colnames(total)))
 
 total <- bind_cols(subject_total, y_total, X_mean_std_total)
 
+# Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+total_by_activity_subject <- group_by(total, activity,subject) %>% summarise_each(funs(mean))
 
 
 
