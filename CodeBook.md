@@ -18,7 +18,7 @@ The dataset includes the following files:
 
 - 'mean_and_std_measurements.txt' : Contains the mean and standard deviation of each accelerometer and gyroscope signals for each record.
 
-- 'avg_mean_and_std_measurements.txt' : Contains the average of each variable in the previous file for each activity and each subject.
+- 'avg_mean_and_std_measurements.txt' : Contains the average of each variable in the previous file for each activity and each subject. This summary is created from the first file with the [group_by verb of the dplyr R package](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html).
 
 If you have questions about the data, please email yaf515@g.harvard.edu
 
