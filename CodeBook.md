@@ -26,5 +26,25 @@ If you have questions about the data, please email yaf515@g.harvard.edu
 |-----------|--------|-------------|---------------|--------|
 |subject    | The subject who performed the activity | Factor |1-30 | |
 | activity  | The name of the activity performed | Character | walking, walking_upstairs, walking_downstairs, sitting, standing, laying | |
+|tBodyAcc-mean()-X|Mean value of the body acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAcc-mean()-Y|Mean value of the body acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAcc-mean()-Z|Mean value of the body acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-mean()-X|Mean value of the gravity acceleration signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-mean()-Y|Mean value of the gravity acceleration signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tGravityAcc-mean()-Z|Mean value of the gravity acceleration signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-mean()-X|Mean value of the body acceleration Jerk signal in the X-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-mean()-Y|Mean value of the body acceleration Jerk signal in the Y-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyAccJerk-mean()-Z|Mean value of the body acceleration Jerk signal in the Z-axis direction in standard gravity units 'g'|Numeric||Time domain|
+|tBodyGyro-mean()-X|Mean value of the body angular velocity signal in the X-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyro-mean()-Y|Mean value of the body angular velocity signal in the Y-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyro-mean()-Z|Mean value of the body angular velocity signal in the Z-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-mean()-X|Mean value of the body angular velocity Jerk signal in the X-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-mean()-Y|Mean value of the body angular velocity Jerk signal in the Y-axis direction in rad/s|Numeric||Time domain|
+|tBodyGyroJerk-mean()-Z|Mean value of the body angular velocity Jerk signal in the Z-axis direction in rad/s|Numeric||Time domain|
+|tBodyAccMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tGravityAccMag-mean()|Mean value of the magnitude of the three-dimensional gravity acceleration signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyAccJerkMag-mean()|Mean value of the magnitude of the three-dimensional body acceleration Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyGyroMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity signal|Numeric||Time domain. Calculated using the Euclidean norm.|
+|tBodyGyroJerkMag-mean()|Mean value of the magnitude of the three-dimensional body angular velocity Jerk signal|Numeric||Time domain. Calculated using the Euclidean norm.|
 
 
