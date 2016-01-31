@@ -21,13 +21,9 @@ The dataset includes the following files:
 
 If you have questions about the data, please email yaf515@g.harvard.edu
 
-| Field label: | subject |  
-| Variable: | The subject who performed the activity |
-| Variable type: | factor |
-| Allowable values: | 1-30 |
-|||
-| Field label: | activity |  
-| Variable: | The name of the activity performed |
-| Variable type: | Character |
-| Allowable values: | walking, walking_upstairs, walking_downstairs, sitting, standing, laying |
+|Field label|Variable|Variable type|Allowable value|Comments|
+|-----------|--------|-------------|---------------|--------|
+|subject    | The subject who performed the activity | Factor |1-30 | |
+| activity  | The name of the activity performed | Character | walking, walking_upstairs, walking_downstairs, sitting, standing, laying | |
+
 
